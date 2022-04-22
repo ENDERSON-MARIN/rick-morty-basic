@@ -21,7 +21,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1 className="title">Rick & Morty</h1>
+        <h1 className="title">Rick & Morty Practice</h1>
         {characters ? ( //si el estado tiene información mostrar el componente Characters
           <Characters characters={characters} setCharacters={setCharacters} />
         ) : (
